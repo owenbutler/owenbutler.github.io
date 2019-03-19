@@ -1,6 +1,7 @@
 
 function setup() {
   createCanvas(1024, 576);
+  noCursor();
 }
 
 let player = new Player();
